@@ -12,13 +12,13 @@ This repository provides **JavaScript examples** of these patterns, serving as a
 
 Creational patterns focus on **object creation mechanisms**, enhancing flexibility and reuse in the instantiation process.
 
-| Pattern Name         | Description                                                                                                      |
-|----------------------|------------------------------------------------------------------------------------------------------------------|
-| **Singleton**        | Ensures a class has only one instance and provides a global access point.                                         |
-| **Factory Method**   | Defines an interface for creating an object, but lets subclasses alter the type of object that will be created.  |
-| **Abstract Factory** | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. |
-| **Builder**          | Separates the construction of a complex object from its representation.                                           |
-| **Prototype**        | Creates new objects by copying an existing object (prototype).                                                   |
+| Pattern Name                                                                 | Description                                                                                                      |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **[Singleton](./patterns/creational/singleton/singleton.implementation.js)** | Ensures a class has only one instance and provides a global access point.                                         |
+| **Factory Method**                                                           | Defines an interface for creating an object, but lets subclasses alter the type of object that will be created.  |
+| **Abstract Factory**                                                         | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. |
+| **Builder**                                                                  | Separates the construction of a complex object from its representation.                                           |
+| **Prototype**                                                                | Creates new objects by copying an existing object (prototype).                                                   |
 
 ### Structural Design Patterns
 
@@ -86,5 +86,5 @@ This repository is licensed under the **MIT License**. See [LICENSE](LICENSE) fo
 
 ---
 
-By mastering these patterns, you can **write clean, scalable, and maintainable Node.js applications**. Happy coding!
+By mastering these patterns, you can **write clean, scalable, and maintainable JavaScript applications**. Happy coding!
 
