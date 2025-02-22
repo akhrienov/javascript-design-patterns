@@ -2,11 +2,11 @@
 
 This repository contains a comprehensive implementation and examples of the Singleton pattern in JavaScript, demonstrating both class-based and functional approaches.
 
-## 🌟 Overview
+## Overview
 
 The Singleton pattern ensures a class has only one instance and provides a global point of access to it. This implementation focuses on a Configuration Manager use case, demonstrating practical applications in real-world scenarios.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 patterns/
@@ -18,7 +18,7 @@ patterns/
         └── singleton.spec.js           # Test suite
 ```
 
-## 🚀 Features
+## Features
 
 - Two implementation approaches:
     - Class-based Singleton using modern JavaScript features
@@ -30,7 +30,7 @@ patterns/
     - Configuration reset capabilities
 - Comprehensive test coverage
 
-## 💻 Implementation Details
+## Implementation Details
 
 ### Class-based Approach
 
@@ -67,7 +67,7 @@ export const createConfigManager = () => {
 };
 ```
 
-## 📝 Usage Examples
+## Usage Examples
 
 ### Basic Usage
 
@@ -94,7 +94,7 @@ const unsubscribe = config.subscribe(({ key, newValue, oldValue }) => {
 unsubscribe();
 ```
 
-## 🧪 Testing
+## Testing
 
 The implementation includes comprehensive test coverage using Vitest:
 
@@ -110,7 +110,7 @@ Test suite covers:
 - Concurrent operations
 - Integration scenarios
 
-## 🔍 Key Considerations
+## Key Considerations
 
 1. **Thread Safety**
     - Ensures single instance creation in concurrent environments
@@ -124,11 +124,11 @@ Test suite covers:
     - Optimized for frequent configuration access
     - Minimal overhead for updates and notifications
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by the Gang of Four Design Patterns
 - Modernized for current JavaScript ecosystem
@@ -136,4 +136,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐️ If you find this implementation helpful, please consider giving it a star!
+If you find this implementation helpful, please consider giving it a star!

@@ -104,7 +104,6 @@ export class ConfigManager {
 /**
  * Functional approach to Singleton pattern
  * Creates a configuration manager singleton
- * @returns {Object} Configuration manager instance
  */
 export const createConfigManager = () => {
   // Private variable to hold the singleton instance

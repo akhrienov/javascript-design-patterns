@@ -130,7 +130,7 @@ dist
 .pnp.*
 
 # IDE specific
-.idea
+.idea/
 
 # MacOS
 .DS_Store
