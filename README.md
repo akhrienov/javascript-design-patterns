@@ -18,7 +18,7 @@ Creational patterns focus on **object creation mechanisms**, enhancing flexibili
 | **[Factory Method](./patterns/creational/factory-method/factory-method.implementation.js)**     | Defines an interface for creating an object, but lets subclasses alter the type of object that will be created.  |
 | **[Abstract Factory](./patterns/creational/abstract-factory/abstract-factory.implementation.js)** | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. |
 | **[Builder](./patterns/creational/builder/builder.implementation.js)**                                                                                     | Separates the construction of a complex object from its representation.                                           |
-| **Prototype**                                                                                   | Creates new objects by copying an existing object (prototype).                                                   |
+| **[Prototype](./patterns/creational/prototype/prototype.implementation.js)**                                                                                   | Creates new objects by copying an existing object (prototype).                                                   |
 
 ### Structural Design Patterns
 
