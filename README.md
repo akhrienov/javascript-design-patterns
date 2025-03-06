@@ -27,7 +27,7 @@ Structural patterns **simplify the design** by identifying simple ways to **real
 | Pattern Name    | Description                                                                                                           |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------|
 | **Adapter**     | Allows objects with incompatible interfaces to collaborate.                                                           |
-| **Composite**   | Composes objects into tree structures to represent part-whole hierarchies.                                             |
+| **[Composite](./patterns/structural/composite/composite.implementation.js)** | Composes objects into tree structures to represent part-whole hierarchies.                                             |
 | **Proxy**       | Provides a surrogate or placeholder for another object to control access to it.                                       |
 | **Flyweight**   | Minimizes memory usage by sharing common data across multiple objects.                                                 |
 | **Facade**      | Provides a simplified interface to a larger and more complex body of code.                                             |
