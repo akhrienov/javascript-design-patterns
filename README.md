@@ -24,15 +24,15 @@ Creational patterns focus on **object creation mechanisms**, enhancing flexibili
 
 Structural patterns **simplify the design** by identifying simple ways to **realize relationships between entities**.
 
-| Pattern Name    | Description                                                                                                           |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Adapter**     | Allows objects with incompatible interfaces to collaborate.                                                           |
-| **Composite**   | Composes objects into tree structures to represent part-whole hierarchies.                                             |
-| **Proxy**       | Provides a surrogate or placeholder for another object to control access to it.                                       |
-| **Flyweight**   | Minimizes memory usage by sharing common data across multiple objects.                                                 |
-| **Facade**      | Provides a simplified interface to a larger and more complex body of code.                                             |
-| **Bridge**      | Separates abstraction from implementation, allowing both to evolve independently.                                      |
-| **Decorator**   | Dynamically adds behavior or responsibilities to an object without modifying its structure.                           |
+| Pattern Name                                                           | Description                                                                                                           |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **[Adapter](./patterns/structural/adapter/adapter.implementation.js)** | Allows objects with incompatible interfaces to collaborate.                                                           |
+| **Composite**                                                          | Composes objects into tree structures to represent part-whole hierarchies.                                             |
+| **Proxy**                                                              | Provides a surrogate or placeholder for another object to control access to it.                                       |
+| **Flyweight**                                                          | Minimizes memory usage by sharing common data across multiple objects.                                                 |
+| **Facade**                                                             | Provides a simplified interface to a larger and more complex body of code.                                             |
+| **Bridge**                                                             | Separates abstraction from implementation, allowing both to evolve independently.                                      |
+| **Decorator**                                                          | Dynamically adds behavior or responsibilities to an object without modifying its structure.                           |
 
 ### Behavioral Design Patterns
 
