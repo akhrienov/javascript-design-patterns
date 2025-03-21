@@ -31,7 +31,7 @@ Structural patterns **simplify the design** by identifying simple ways to **real
 | **[Proxy](./patterns/structural/proxy/proxy.implementation.js)**             | Provides a surrogate or placeholder for another object to control access to it.                                       |
 | **[Flyweight](./patterns/structural/flyweight/flyweight.implementation.js)**     | Minimizes memory usage by sharing common data across multiple objects.                                                 |
 | **[Facade](./patterns/structural/facade/facade.implementation.js)**                                                                   | Provides a simplified interface to a larger and more complex body of code.                                             |
-| **Bridge**                                                                   | Separates abstraction from implementation, allowing both to evolve independently.                                      |
+| **[Bridge](./patterns/structural/bridge/bridge.implementation.js)**                                                                   | Separates abstraction from implementation, allowing both to evolve independently.                                      |
 | **Decorator**                                                                | Dynamically adds behavior or responsibilities to an object without modifying its structure.                           |
 
 ### Behavioral Design Patterns
