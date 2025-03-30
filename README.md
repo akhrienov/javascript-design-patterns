@@ -38,19 +38,19 @@ Structural patterns **simplify the design** by identifying simple ways to **real
 
 Behavioral patterns focus on **communication between objects**, promoting **loose coupling** and **flexibility**.
 
-| Pattern Name                | Description                                                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **[Template Method](./patterns/behavioral/template-method/template-method.implementation.js)**       | Defines the program skeleton in a method, deferring some steps to subclasses.                                |
-| **Mediator**                | Defines an object that centralizes communication between components.                                         |
-| **Chain of Responsibility** | Passes a request along a chain of handlers until one handles it.                                             |
-| **Observer**                | Defines a dependency between objects so that when one changes state, all dependents are notified.            |
-| **Strategy**                | Defines a family of algorithms and lets the client choose which one to use at runtime.                      |
-| **Command**                 | Encapsulates a request as an object, allowing parameterization and queuing of requests.                     |
-| **State**                   | Allows an object to change its behavior when its internal state changes.                                     |
-| **Visitor**                 | Separates an algorithm from the objects it operates on.                                                     |
-| **Interpreter**             | Defines a grammar and an interpreter to process that grammar.                                                |
-| **Iterator**                | Provides a way to access elements of a collection sequentially without exposing the underlying representation.|
-| **Memento**                 | Captures an object’s state so it can be restored later without violating encapsulation.                    |
+| Pattern Name                                                                                   | Description                                                                                                 |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **[Template Method](./patterns/behavioral/template-method/template-method.implementation.js)** | Defines the program skeleton in a method, deferring some steps to subclasses.                                |
+| **[Mediator](./patterns/behavioral/mediator/mediator.implementation.js)**               | Defines an object that centralizes communication between components.                                         |
+| **Chain of Responsibility**                                                                    | Passes a request along a chain of handlers until one handles it.                                             |
+| **Observer**                                                                                   | Defines a dependency between objects so that when one changes state, all dependents are notified.            |
+| **Strategy**                                                                                   | Defines a family of algorithms and lets the client choose which one to use at runtime.                      |
+| **Command**                                                                                    | Encapsulates a request as an object, allowing parameterization and queuing of requests.                     |
+| **State**                                                                                      | Allows an object to change its behavior when its internal state changes.                                     |
+| **Visitor**                                                                                    | Separates an algorithm from the objects it operates on.                                                     |
+| **Interpreter**                                                                                | Defines a grammar and an interpreter to process that grammar.                                                |
+| **Iterator**                                                                                   | Provides a way to access elements of a collection sequentially without exposing the underlying representation.|
+| **Memento**                                                                                    | Captures an object’s state so it can be restored later without violating encapsulation.                    |
 
 ## Getting Started
 
