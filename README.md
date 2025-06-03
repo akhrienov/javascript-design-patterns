@@ -50,7 +50,7 @@ Behavioral patterns focus on **communication between objects**, promoting **loos
 | **[Visitor](./patterns/behavioral/visitor/visitor.implementation.js)**                                                                                                            | Separates an algorithm from the objects it operates on.                                                     |
 | **[Interpreter](./patterns/behavioral/interpreter/interpreter.implementation.js)**                                                                                                        | Defines a grammar and an interpreter to process that grammar.                                                |
 | **[Iterator](./patterns/behavioral/iterator/iterator.implementation.js)**                                                                                                           | Provides a way to access elements of a collection sequentially without exposing the underlying representation.|
-| **Memento**                                                                                                            | Captures an object’s state so it can be restored later without violating encapsulation.                    |
+| **[Memento](./patterns/behavioral/memento/memento.implementation.js)**                                                                                                            | Captures an object’s state so it can be restored later without violating encapsulation.                    |
 
 ## Getting Started
 
